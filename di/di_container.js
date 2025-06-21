@@ -140,23 +140,6 @@ class MockLogger {
   }
 }
 
-// class UserService {
-//   constructor(emailService, logger) {
-//     this.emailService = emailService;
-//     this.logger = logger;
-//   }
-
-//   registerUser(userData) {
-//     this.logger.log(`register user: ${userData.email}`);
-//     this.emailService.send(
-//       userData.email,
-//       "welcome",
-//       "thankyou for registering!"
-//     );
-//     this.logger.log(`user registered`);
-//   }
-// }
-
 function testUserRegistration() {
   const mockEmailService = new MockEmailService();
   const mockLogger = new MockLogger();
