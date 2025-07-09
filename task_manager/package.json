@@ -1,0 +1,22 @@
+{
+  "name": "task_manager",
+  "version": "1.0.0",
+  "description": "A comprehensive command line task management system",
+  "main": "src/index.js",
+  "author": "Abula Martins Onyemuche",
+  "keywords": [
+    "cli",
+    "task-manager"
+  ],
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "task-manager": "./bin/task-manager.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
