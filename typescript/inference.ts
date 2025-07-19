@@ -1,6 +1,6 @@
 // basic types inference
 let fName = "james";
-let age = 45;
+// let age = 45;
 let isAdmin = true;
 let items = [1, 2, 3, "john", false];
 
